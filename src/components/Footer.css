@@ -1,0 +1,14 @@
+/* Footer.css */
+.footer {
+    background-color: #2c1810;
+    color: #fff;
+    padding: 2rem;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2
+  }

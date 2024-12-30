@@ -1,0 +1,205 @@
+/* Hero.css */
+.hero {
+  background-color: #F9F4E6;
+  padding: 4rem 2rem 0; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.border-up {
+  background-color: #F9F4E6; /* Same as hero background */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  height: 110px; /* Adjust based on your hand image height */
+
+}
+
+.border-up img {
+  width: 100%;
+  max-width: 1900px;
+  bottom: 2px;
+  left: 0;
+  
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #8D7E61;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  max-width: 340px; 
+  width: 100%;
+  margin-bottom: 1rem; 
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Added styles for buttons */
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #8D7E61;
+  border-radius: 30px;
+
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #8D7E61;
+  border-radius: 30px;
+  border: 2px solid #8D7E61;
+}
+
+.border-down {
+  background-color: #F9F4E6; /* Same as hero background */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 110px; /* Adjust based on your hand image height */
+  overflow: visible;
+}
+
+.border-down img {
+  width: 100%;
+  max-width: 1900px;
+  position: absolute;
+  bottom: -2px; /* Ensures perfect connection */
+  left: 0;
+}
+
+.why-organize {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  position: relative;
+  margin-top: -2px;
+}
+
+.why-organize h2 {
+  text-align: center;
+  color: #8B4513;
+  margin-bottom: 2rem;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit-item {
+  text-align: center;
+  padding: 2rem;
+}
+
+.benefit-item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.what-you-receive {
+  background-color: #FDF5E6;
+  padding: 4rem 2rem;
+}
+
+.what-you-receive h2 {
+  text-align: center;
+  color: #8B4513;
+  margin-bottom: 2rem;
+}
+
+.features {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.feature-item h3 {
+  color: #8B4513;
+  margin-bottom: 1rem;
+}
+
+.feature-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-item li {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.feature-item li::before {
+  content: "•";
+  color: #8B4513;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    min-width: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
