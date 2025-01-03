@@ -1,0 +1,154 @@
+/* Container Styles */
+.plays-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .plays-title {
+    font-family: 'Cabazon', sans-serif;
+    font-weight: 200;
+    color: #8D7E61;
+    font-size: 35px;
+    position: relative;
+    left: 143px;  }
+  
+  .plays-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  /* Play Card Styles */
+  .play-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: all 0.3s ease;
+  }
+  
+  .play-card-expanded {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / -1; /* Spans full width when expanded */
+    gap: 2rem;
+  }
+  
+  /* Image Section */
+  .play-image-section {
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .play-image-expanded {
+    grid-column: span 5 / span 5;
+  }
+  
+  .play-image {
+    position: relative;
+    left: 130px;
+    width: 200px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .play-image:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Content Section */
+  .play-content {
+    grid-column: span 7 / span 7;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+    padding: 1rem;
+  }
+  
+  /* Button Styles */
+  .play-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button-light {
+    background-color: #F9F4E6;
+    color: #8D7E61;
+  }
+  
+  .button-light:hover {
+    background-color: #8D7E61;
+    color: #F9F4E6;
+  }
+  
+  .button-dark {
+    background-color: #F9F4E6;
+    color: #8D7E61;
+  }
+  
+  .button-dark:hover {
+    background-color: #8D7E61;
+    color: #F9F4E6;
+  }
+  
+  /* Text Styles */
+  .play-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #795548;
+    margin-bottom: 1rem;
+  }
+  
+  .play-description {
+    color: #4B5563;
+    line-height: 1.625;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .play-card-expanded {
+        grid-template-columns: 1fr;
+    }
+  
+    .play-image-expanded,
+    .play-content {
+        grid-column: 1 / -1;
+    }
+  
+    .play-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plays-title {
+      left: 0;
+      text-align: center;
+    }
+
+    .play-image {
+      left: 50px;
+      text-align: center;
+    }
+  }

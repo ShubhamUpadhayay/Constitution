@@ -1,0 +1,569 @@
+.landingpage{
+    display: flex;
+}
+
+.mainconst {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainconst img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+  }
+
+  .border-up {
+    background-color: #F9F4E6;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .border-up img {
+    width: 100%;
+    max-width: 1900px;
+    bottom: 2px;
+    left: 0;
+    object-fit: cover;
+  }
+
+
+  .border-down {
+    background-color: #F9F4E6;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 150px; 
+    overflow: visible;
+  }
+  
+  .border-down img {
+    width: 100%;
+    max-width: 1900px;
+    position: absolute;
+    left: 0;
+  }
+
+  .mainconst img{
+    position: relative;
+  }
+
+  .heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heart img{
+    width: 300px;
+  }
+
+  .conclusion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    color: #8D7E61;
+  }
+
+  .circle-pattern {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 300px;
+}
+
+.circle1{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #FFFAED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.circle2{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #FFFAED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    right: 20px;
+    z-index: 3;
+}
+
+.circle3{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #FFFAED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    right: 40px;
+}
+
+.circle-title {
+    color: #8D7E61;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.small-circle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: #FFFAED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    bottom: 330px;
+    left: 240px;
+}
+
+.small-circle img{
+    width: 70px;
+    position: relative;
+    left: 10px;
+}
+
+.small-circle2{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: #FFFAED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    bottom: 330px;
+    left: 430px;
+    z-index: 5;
+}
+
+.small-circle2 img{
+    width: 130px;
+}
+
+.actor-circles{
+    height: 0;
+}
+
+.actor-circles img{
+    width: 100px;
+}
+
+.male-actor{
+    position: relative;
+    left: 810px;
+    bottom: 430px;
+}
+
+.actress1{
+    position: relative;
+    left: 1020px;
+    bottom: 520px;
+}
+
+.actress2{
+    position: relative;
+    left: 890px;
+    bottom: 430px;
+}
+
+.small{
+    display: flex;
+}
+
+.about-play{
+    padding-top: 120px;
+    padding-left: 40px;
+    background-color: #F9F4E6;
+    position: relative;
+    left: 193px;
+}
+
+.about-play h2{
+    font-family: 'Cabazon', sans-serif;
+    font-weight: 200;
+    color: #8D7E61;
+    font-size: 35px;
+}
+
+.our-play-text{
+    padding: 2rem 2rem;
+    background-color: #F9F4E6;
+    position: relative;
+    left: 160px;
+}
+
+.our-play-text h2{
+    font-family: 'Cabazon', sans-serif;
+    font-weight: 200;
+    color: #8D7E61;
+    font-size: 35px;
+}
+
+.rect{
+    display: flex;
+    width: 100%;
+    gap: 250px;
+}
+
+.desc h3{
+    width: 40%;
+    color: #8D7E61;
+    font-size: 25px;
+}
+
+.desc p{
+    width: 70%;
+    color: #8D7E61;
+}
+
+.rect img{ 
+    position: relative;
+    left: 200px;
+    width: 200px;
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .main-content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .mainconst {
+    position: relative;
+    width: 100%;
+  }
+  
+  .mainconst img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .promo-boxes {
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    transform: translateY(50%);
+    z-index: 10;
+  }
+
+  
+  .promo-box {
+    height: 200px;
+    background-color: #F9F4E6;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 24rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    padding-left: 130px;
+  }
+
+  .promo-text{
+    padding-left: 23px;
+    font-size: 17px;
+    color: #62574A;
+    }
+
+    .promo-text1{
+      padding-left: 23px;
+      font-size: 17px;
+      color: #F9F4E6;
+        }
+  
+  .promo-box:last-child {
+    background-color: #8D7E61;
+    color: white;
+  }
+  
+  .check-tickets-btn,
+  .organize-event-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    border: 1px solid;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .check-tickets-btn {
+    border-color: #666;
+    color: #8D7E61;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .organize-event-btn {
+    border-color: #F9F4E6;
+    color: #F9F4E6;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .organize-event-btn-play {
+    border-color: #666;
+    color: #666;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .organize-event-btn-play {
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    border: 1px solid;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  
+  .check-tickets-btn:hover {
+    background-color: #8D7E61;
+    color: #F9F4E6;
+  }
+  
+  .organize-event-btn:hover {
+    background-color: #F9F4E6;
+    color: #8D7E61;
+}
+
+  .plays-btn{
+    display: flex;
+    gap: 15px;
+  }
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+    .mainconst img {
+      width: 100%;
+      height: 750px;
+      object-fit: cover;
+      position: relative;
+      left: 0;
+      z-index: 3;
+    }
+    
+    .promo-boxes {
+      flex-direction: column;
+      align-items: center;
+      transform: translateY(40%);
+    }
+  
+    .promo-box {
+      max-width: 90%;
+    }
+
+    .border-down {
+      background-color: #F9F4E6;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      height: 150px; 
+      bottom: 27px;
+      overflow: visible;
+    }
+    
+    .border-down img {
+      width: 100%;
+      max-width: 1900px;
+      position: absolute;
+      left: 0;
+    }
+
+  }
+
+
+  @media (max-width: 768px) {
+
+    .heart img{
+        width: 200px;
+      }
+
+      .heart{
+        margin-top: 80px;
+      }
+
+    .conclusion{
+        padding: 20px;
+        color: #8D7E61;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+
+      .about-play {
+        left: 0;
+        text-align: center;
+      }
+
+      .circle-pattern {
+        flex-direction: column;
+      }
+      
+      .circle1, .circle2, .circle3 {
+        width: 200px;
+        height: 200px;
+        right: 0;
+      }
+    
+
+  }
+
+
+
+  @media (max-width: 991px) {
+    .small {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .small-circle{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        bottom: 680px;
+        z-index: 10;
+    }
+
+  .small-circle2 {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      bottom: 425px;
+      z-index: 10;
+  }
+
+    .small-circle {
+        left: 50%;
+        transform: translateX(-120%);
+    }
+
+    .small-circle2 {
+        left: 50%;
+        transform: translateX(20%);
+    }
+
+    .small-circle img {
+        width: 60px;
+    }
+
+    .small-circle2 img {
+        width: 100px;
+    }
+
+    .actor-circles{
+      position: relative;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .male-actor{
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      bottom: 220px;
+      z-index: 10;
+  }
+
+.actress1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 225px;
+    z-index: 10;
+}
+
+  .male-actor{
+      left: 40%;
+      transform: translateX(-120%);
+  }
+
+  .actress1 {
+      left: 60%;
+      transform: translateX(20%);
+  }
+
+  .male-actor img {
+      width: 70px;
+  }
+
+  .actress1 img {
+      width: 70px;
+  }
+
+  .actress2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    z-index: 10;
+}
+
+.actress2 {
+  left: 40%;
+  transform: translateX(20%);
+}
+
+.actress2 img {
+  width: 70px;
+}
+}
+
+
+

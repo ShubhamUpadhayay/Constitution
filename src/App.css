@@ -1,5 +1,12 @@
 
 .app {
   min-height: 100vh;
-  background-color: #FDF5E6;
+  background-color: #F9F4E6;
+}
+
+@font-face {
+  font-family: 'Cabazon';
+  src: url('../public/Cabazon-W01-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
